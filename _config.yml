@@ -1,40 +1,21 @@
 # Site settings
-title:          Rain
-description:    "Rain is a simple and clean Jekyll theme with focus on content."
-url:            https://replicantim.github.io/
+title: "On Software Engineering, Mathematics<br>and Philosophy"
+author: "Replicant"
+description: "This is a blog about software, some mathematics, and the occasional philosophy. Not necessarily in that order."
+keywords: "Software Engineering, Mathematics, Philosophy, Scala, Epistemology, Existentialism, Programming, Machine-Learning, Artificial Intelligence, Statistics, Probability, Puzzles"
+biography: "I am a Professor of Software Engineering at the <a href='http://www.fe.up.pt'>Faculty of Engineering</a>, University of Porto and Senior Researcher at <a href='https://www.inesctec.pt'>INESC TEC</a>. Here you can find my <a href='/assets/thesis.pdf'>PhD Thesis</a> and my <a href='/assets/cv.pdf'>Résumé</a>."
+colophon: "© MMXIII — MMXVI by Hugo Sereno Ferreira.<br>Content available under <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Creative Commons (BY-NC-SA)</a> unless otherwise noted.<br>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
 
-# Author
-author:
-  name:         replicant
-  email:        replicantoim@gmail.com
-  url:          https://replicantim.github.io/
+baseurl: ""
+url: " https://replicantim.github.io/"
 
-# Build settings
-markdown:       kramdown
+#twitter_username: ferreira_hugo
+github_username: replicantim
+#linkedin_username: hugoserenoferreira
+#facebook_username: hugo.sereno.ferreira
+#google-analytics: UA-69060-5
 
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
-
-# Gems
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  # - jemoji #Uncomment this to allow emoji in your post
-
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
-
-# Related posts settings
-related_posts_section:
-  max_count:        5
-  min_common_tags:  2
-
-# Links to social media
-social:
-  email: replicantoim@gmail.com
-  github: https://github.com/replicantim
-  #twitter: https://twitter.com
-  #linkedin: https://ba.linkedin.com/in/inela-avdic-hukic-322354131
+simple_search: http://google.com/search
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title/
