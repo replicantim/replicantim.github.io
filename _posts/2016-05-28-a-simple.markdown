@@ -11,8 +11,6 @@ categories: Tests
 
 It's amazing how a simple puzzle installs chaos among mathematicians and philosophers alike. Some would argue that the correct probability is ½: after all, the coin is **fair**, isn't it? Others would say that the correct probability should be ⅓. Think about this problem for a second because the correct answer is... **both**!
 
-![avatar](C:\GR\202206\R0000041.jpg)
-
 As many things in life, it's all a matter of perspective. And the conundrum here lies in the way the problem is phrased. But before going into maths and probability theory, we shall **simulate**:
 
 ```scala
